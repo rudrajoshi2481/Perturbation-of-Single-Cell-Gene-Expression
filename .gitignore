@@ -1,0 +1,88 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+htmlcov/
+.tox/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ---- Data / Binaries ----
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.h5
+*.pkl
+*.pickle
+*.parquet
+*.db
+*.sqlite
+*.sqlite3
+data/
+!data/.gitkeep
+
+# ---- Logs / Outputs ----
+*.log
+logs/
+runs/
+output/
+outputs/
+results/
+trash/
+wandb/
+
+# ---- Images / Plots (generated) ----
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+!public/*.png
+!public/*.jpg
+
+# ---- Node / Next.js ----
+node_modules/
+.next/
+out/
+dist/
+*.tsbuildinfo
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ---- IDE ----
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
